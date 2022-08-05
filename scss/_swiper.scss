@@ -1,0 +1,21 @@
+
+.swiper{
+
+}
+.swiper-slide{
+    background-color:grey;
+    background: url(../img/swiper_slide_1.png);
+    object-fit: cover;
+    .slide_btn{
+        color: red;
+    }
+    .slide_content{
+
+    }
+
+}
+
+
+.slide_content{
+    height: 700px;
+}

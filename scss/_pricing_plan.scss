@@ -1,0 +1,154 @@
+.pricin_plan{
+    position: relative;
+    min-height: 815px;
+
+    & .bg_bottom{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+    }
+    & .pp_container{
+        position: absolute;
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+}
+
+.pp_content{
+    width: 1180px;
+    height: 656px;
+    margin: 272px auto 100px auto;
+    text-align: center;
+    & .pp_text{
+        margin: 0 auto;
+        margin-bottom: 80px;
+        align-items: center;
+    }
+
+    & .pp_title{
+        color: #fff;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+
+    & .pp_desc{
+        margin: 0 auto;
+        width: 660px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+    }
+
+}
+
+
+.pricing_cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    & .pricing_card{
+        width: 340px;
+        height: 440px;
+        border-radius: 68px;
+        background: rgba(15, 31, 75, 1);
+        & .pricing_card_content{
+            padding-top: 60px;
+            padding-bottom: 60px;
+
+            & .price-title{
+                color:#fff;
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 35px;
+                margin-bottom: 10px;
+            }
+            & .price-sub_title{
+                color: #8794BA;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                margin-bottom: 37px;
+            }
+
+            & .line{
+                content: "";
+                border: 1px solid rgba(42, 64, 124, 1);
+                width: 220px;
+                margin: 0 auto;
+            }
+
+            & .price{
+                color: #fff;
+                font-weight: 700;
+                font-size: 60px;
+                line-height: 35px;
+                margin-top: 40px;
+                margin-bottom: 10px;
+
+                & span{
+                    font-size: 30px;
+                }
+                & p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 140%;
+
+                }
+            }
+
+            & .month{
+                margin-bottom: 45px;
+            }
+            & a{
+                width: 200px;
+                height: 50px;
+                padding: 15.5px 80px;
+                border: 1px solid rgba(42, 64, 124, 1);
+                border-radius: 68px;
+                color: #fff;
+            }
+
+
+        }
+    }
+
+}
+
+.pricing_card:hover{
+    transition: 0.5s;
+    background: #fff;
+    & .pricing_card_content{
+
+        & .price-title{
+            color:rgba(23, 39, 85, 1);
+        }
+
+        & .price{
+            color: rgba(23, 39, 85, 1);;
+
+            & span{
+                font-size: 30px;
+            }
+            & p{
+                color:rgba(135, 148, 186, 1);
+
+            }
+        }
+
+        & a{
+
+            border: none;
+            border-radius: 68px;
+            background-color: rgba(239, 42, 130, 1);
+        }
+
+
+    }
+}

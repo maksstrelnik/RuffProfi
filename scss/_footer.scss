@@ -1,0 +1,25 @@
+.footer_content{
+    margin: 0 auto;
+    width: 1180px;
+    height: 94px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    & .footer-nav_items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & li{
+            padding: 0 18px;
+        }
+    }
+    & .socials{
+        & img{
+            padding: 0 20px 0 20px;
+        }
+        & .instagram{
+            padding-right: 0;
+        }
+
+    }
+}

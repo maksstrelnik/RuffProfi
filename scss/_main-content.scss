@@ -1,0 +1,109 @@
+.main-content_section{
+    margin-top: 100px;
+    .company_descr_title{
+        margin-bottom: 40px;
+        color: #252930;
+        line-height: 56px;
+        color:#000000;
+    }
+}
+.benefits{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-template-areas: 'a b c' 'd d d';
+    grid-gap:20px ;
+    justify-content: center;
+
+
+    .benefit_1{
+        grid-area:a;
+
+    }
+    .benefit_2{
+        grid-area:b;
+    }
+    .benefit_3{
+        grid-area:c;
+    }
+    .benefit_4{
+        display:flex;
+        justify-content: space-between;
+        height: 450px;
+        background: url(../img/benefits/ben_map.png) no-repeat 420px 500px;
+        background-size: contain;
+        background-position: 150%;
+        grid-area:d;
+        .areas{
+            margin:40px;
+            .ben_4_title{
+                color:#000;
+                font-size: 24px;
+                line-height: 32px;
+            }
+        }
+        .areas_list{
+            color:#252930;
+            margin-top: 28px;
+            list-style-image: url(../img/benefits/svg/list_img.svg)!important;
+            line-height: 24px;
+            .areas_item:before{
+                content: url(../img/benefits/svg/list_img.svg);
+                color:green;
+                margin-right: 16px;
+
+            }
+        }
+        .ben_4_places{
+
+            position: relative;
+            top:200px;
+            right: 24px;
+            width: 360px;
+            height: 224px;
+            background-color: #AB413D;
+            .icons{
+                margin: 24px;
+                margin-bottom: 16px!important;
+                img{
+                    margin-right: 12px;
+                }
+            }
+            .places_text{
+                margin: 24px;
+                margin-top:16px!important;
+                color:#fff;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .ben_img{
+        margin:32px;
+        margin-bottom: 20px;
+        max-width: 4em;
+    }
+    .ben_img_290{
+        margin:32px;
+        margin-bottom: 20px;
+        max-width: 7em;
+    }
+    .ben_content{
+        margin: 32px;
+        margin-top: 20px;
+        .ben_title{
+            margin-bottom: 12px;
+            font-weight: 800;
+            font-size: 16px;
+            color:#000;
+        }
+        p{
+            color:Gray;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+}
+.benefit{
+    outline:1px solid grey;
+}
+
