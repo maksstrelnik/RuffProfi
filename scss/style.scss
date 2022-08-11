@@ -2,8 +2,8 @@
 @import 'footer';
 @import 'general';
 @import 'home';
-@import 'reset';
-@import 'features';
-@import 'main-content';
+@import '_reset';
+@import '_features';
+@import '_areas-benefits.scss';
 @import '_home-adapt';
 @import '_swiper';
